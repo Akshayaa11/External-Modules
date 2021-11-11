@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     angular
-        .module('csplExternalModulesModule')
+        .module('csplExternalModules')
         .constant('ExternalModules', {
         	
             DocumentManagement : 'DocumentManagement'
