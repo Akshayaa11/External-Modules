@@ -1,3 +1,3 @@
 'use strict';
  
-angular.module('csplExternalModulesModule', []);
+angular.module('csplExternalModules', []);
