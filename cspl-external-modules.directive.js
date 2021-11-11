@@ -11,7 +11,7 @@
 
                 angular.forEach(scope.modules, function(module){
                     if(module == ExternalModules.DocumentManagement){
-                        templateContent = templateContent + '<cspl-document-upload></cspl-document-upload>';
+                        templateContent = templateContent + '<cspl-doc-upload></cspl-doc-upload>';
                     }
                     else if(module == 'Search'){
                         templateContent = templateContent + '<cspl-search ng-model=\'input\'></cspl-search>'
