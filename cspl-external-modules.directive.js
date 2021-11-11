@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     angular
-        .module('nimbusApp')
+        .module('csplExternalModulesModule')
         .directive('csplExternalModules', ['$compile', 'ExternalModules',
                                          function($compile, ExternalModules) {
 
