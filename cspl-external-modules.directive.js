@@ -1,8 +1,8 @@
 (function() {
     'use strict';
     angular
-        .module('csplExternalModulesModule')
-        .directive('csplExternalModules', ['$compile', 'ExternalModules',
+        .module('csplExternalModules')
+        .directive('csplModules', ['$compile', 'ExternalModules',
                                          function($compile, ExternalModules) {
 
             function linkFunction(scope, iElement, iAttrs) {
