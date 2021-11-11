@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     angular
-        .module('nimbusApp')
+        .module('csplExternalModulesModule')
         .constant('ExternalModules', {
         	
             DocumentManagement : 'DocumentManagement'
